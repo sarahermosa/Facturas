@@ -4,19 +4,21 @@
 <html>
 <head>
     <title>Factura's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
 <center>
-    <h1>Factura Management</h1>
-    <h2>
+    <h4>Factura Management</h4>
+    <h6>
         <a href="new">Nueva Factura</a>
         &nbsp;&nbsp;&nbsp;
         <a href="list">Listar Facturas</a>
-    </h2>
+    </h6>
 </center>
 <div align="center">
+    <caption><h6>Lista de Facturas</h6></caption>
     <table border="1" cellpadding="5">
-        <caption><h2>Lista de Facturas</h2></caption>
         <tr>
             <th>ID</th>
             <th>Fecha Emisión</th>
